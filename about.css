@@ -1,0 +1,139 @@
+*{                                                      
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: #ffae00c8;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+}
+#header{
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #ffb300;
+    box-shadow: 0 5px 15 px regba(0,0,0,0.6);
+}
+#navbar li{
+    padding: 0 40px;
+    list-style: none;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: Black;
+  transition: 0.3s ease;
+}
+#navbar li a:hover{
+    color: #088178;
+}
+#header_img h1{
+    color: white;
+    padding-top: 50px;
+    line-height: 59px;
+}
+#header_img{
+    color: white;
+    height: 35vh;
+    background-size:cover;
+    background-position: center;
+   
+    padding: 10px;
+    text-align: center;  
+    background-image: url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette_1258-48251.jpg);
+}
+#header_img p{
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+#about{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+#about img{
+    padding:30px;
+    width:100vh;
+    height:60vh;
+}
+#about h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.section-p2{
+    padding: 50px;
+    padding-top: 30px;
+    background-color: grey;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+footer .col .log{
+    height:45px;
+    width:150px;
+    margin-bottom: 30px;
+}
+footer h4{
+    
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+footer p{
+    
+    font-size: 16 px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    
+    font-size:  16px;
+    text-decoration: none;
+    color:  black;
+    margin-bottom: 10px;
+}
+.row img{
+   
+    height:60px;
+    width:100px;
+    margin: 10px 0 15px 0;
+}
+.visa{
+    
+    height:60px;
+    width:200px;
+    margin: 10px 0 15px 0;
+}
+footer .follow{
+    
+    margin-top: 20px;
+}
+footer .follow i{
+   
+    color: black;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .follow i:hover,footer a:hover
+{
+    color: #ffb100bd;
+}

@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #ffae00c8;
+}
+.logo{
+    height: 30px;
+    width: 100px;
+}
+#header{
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #ffb300;
+    box-shadow: 0 5px 15 px regba(0,0,0,0.6);
+}
+#navbar li{
+    padding: 0 40px;
+    list-style: none;
+}
+#navbar li a:hover{
+    color: #088178;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: Black;
+    transition: 0.3s ease;
+}
+#navbar{
+    display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+#header_img h1{
+    color: black;
+    padding-top: 10px;
+    line-height: 30px;
+}
+#header_img{
+    color: white;
+    height: 35vh;
+    background-size:cover;
+    background-position: center;
+   
+    padding: 10px;
+    text-align: center;  
+    background-image: url(Ecommerce-Page-Builder.jpg);
+}
+#header_img p{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
